@@ -7,7 +7,7 @@ assignees: ''
 ---
 
 ## `mql` version
-[Put release version here and update tag link(0.0.0) ...](https://github.com/vkatsuba/mql.git)
+[Put release version here and update tag link(0.0.0) ...](https://github.com/vkatsuba/mql/releases/tag/TAG_HERE)
 
 ## `OS` version
 <!-- Put the `OS` version ... -->
