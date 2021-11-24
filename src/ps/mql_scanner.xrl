@@ -30,4 +30,4 @@ Rules.
 
 Erlang code.
 
--include("mql_parser.hrl").
+-include("mql.hrl").

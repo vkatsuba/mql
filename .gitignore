@@ -14,5 +14,5 @@ doc
 
 #
 
-src/mql_scanner.erl
-src/mql_parser.erl
+src/ps/mql_scanner.erl
+src/ps/mql_parser.erl
