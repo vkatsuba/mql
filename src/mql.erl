@@ -2,6 +2,8 @@
 
 -export([shell/0]).
 
+-ignore_xref([shell/0]).
+
 -spec shell() -> no_return().
 shell() ->
     io:fwrite("Welcome to the Mnesia Query Language shell.~n"),
