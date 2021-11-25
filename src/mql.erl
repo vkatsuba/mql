@@ -2,9 +2,11 @@
 
 -export([shell/0]).
 
+-ignore_xref([shell/0]).
+
 -spec shell() -> no_return().
 shell() ->
-    io:format("Welcome to the Mnesia Query Language shell.~n"),
+    io:fwrite("Welcome to the Mnesia Query Language shell.~n"),
     Config = undefined,
     shell(Config).
 
@@ -17,10 +19,10 @@ shell(Config) ->
                 {ok, [{quit, quit}]} ->
                     quit;
                 Other ->
-                    io:format("Other ~p~n", [Other]),
+                    io:fwrite("Other ~p~n", [Other]),
                     shell(Config)
             end;
         Unhandle ->
-            io:format("Unhandle ~p~n", [Unhandle]),
+            io:fwrite("Unhandle ~p~n", [Unhandle]),
             shell(Config)
     end.

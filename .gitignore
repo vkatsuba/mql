@@ -12,7 +12,6 @@ _checkouts/
 rebar3
 doc
 
-#
-
+# Generated files
 src/mql_scanner.erl
 src/mql_parser.erl
